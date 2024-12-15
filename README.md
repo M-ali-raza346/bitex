@@ -56,12 +56,10 @@ https://bitex.namvar.dev ⤴️
   - DropDownList
   - Popups
   - Button
-
 - Interactive Homepage Slider
 
   - Crafted from scratch without using any Library
   - Supports both Mouse Drag and `TouchInput`
-
 - Shopping cart management with **Redux**.
 - Product gallery to showcase items attractively.
 - Dynamically Loading Categories (List) from Database
@@ -96,9 +94,11 @@ npm i
 #### 🛠️ Setup .env file
 
 ```js
-DATABASE_URL=
+DATABASE_URL=mongodb+srv://mfaizanakram:faizan157@cluster0.qse9f.mongodb.net/bitex?retryWrites=true&w=majority&appName=Cluster0
+
 NEXTAUTH_SECRET=
 CLOUDINARY_URL= //Hosting address for products images
+
 ```
 
 #### ⬆️ Setup Prisma
